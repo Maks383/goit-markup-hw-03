@@ -3,6 +3,11 @@ body {
   background-color: #ffffff;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   list-style: none;
 }
@@ -13,6 +18,8 @@ body {
 /*---------header-----*/
 .header {
   background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -73,6 +80,7 @@ color: #2196F3;
   color: #2196F3;
 }  
 /*---------section1-----*/
+
 .hero {
   background-color: #2f303a;
 }
@@ -87,6 +95,12 @@ color: #2196F3;
   color: #ffffff;
 }
 
+.hero-content {
+  padding-right: 252px;
+  padding-left: 252px;
+  margin-bottom: 30px;
+}
+
 .hero-btn {
   font-family: inherit,sans-serif;
   font-weight: 700;
@@ -97,6 +111,11 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+
+.hero-button {
+  padding-right: 492px;
+  padding-left: 492px;
 }
 
 .hero-btn {
@@ -110,6 +129,21 @@ color: #2196F3;
 }
 /*---------section2-----*/
 
+.about-item-1 {
+  padding-right: 900px;
+}
+.about-item-2 {
+  padding-right: 600px;
+  padding-left: 300px;
+}
+.about-item-3 {
+  padding-right: 300px;
+  padding-left: 600px;
+}
+.about-item-4 {
+  padding-left: 900px;
+}
+
 .about-title {
   font-weight: 700;
   font-size: 14px;
@@ -117,6 +151,7 @@ color: #2196F3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .about-text {
@@ -136,6 +171,7 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 /*---------section3-----*/
@@ -146,6 +182,11 @@ color: #2196F3;
   background-color: #ffffff;
 }
 
+.team-img {
+  margin-bottom: 30px;
+}
+
+
 .team-top-title {
   font-weight: 700;
   font-size: 36px;
@@ -153,6 +194,7 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team-title {
@@ -162,6 +204,7 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -281,4 +324,30 @@ color: #757575;
 }
 .footer-tel:focus {
   color: #2196F3;
+}
+
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+ul,ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+img {
+  display: block;
 }
