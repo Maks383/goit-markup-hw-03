@@ -29,6 +29,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 
 .logo {
@@ -41,6 +42,27 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-list {
+  display: flex;
+  margin-left: 344px;
+  gap: 50px;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
 }
 
 .header-link:hover {
@@ -111,6 +133,8 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  min-width: 216px;
+  height: 50px;
 }
 
 .hero-button {
@@ -128,22 +152,6 @@ color: #2196F3;
   background-color: #2196F3;
 }
 /*---------section2-----*/
-
-.about-item-1 {
-  padding-right: 900px;
-}
-.about-item-2 {
-  padding-right: 600px;
-  padding-left: 300px;
-}
-.about-item-3 {
-  padding-right: 300px;
-  padding-left: 600px;
-}
-.about-item-4 {
-  padding-left: 900px;
-}
-
 .about-title {
   font-weight: 700;
   font-size: 14px;
@@ -162,6 +170,16 @@ color: #2196F3;
   color: #757575;
 }
 
+.about-text {
+  width: 270;
+  height: 72;
+}
+
+.about-list {
+  display: flex;
+  justify-content: center;
+}
+
 /*---------section2-----*/
 
 .work-title {
@@ -172,6 +190,12 @@ color: #2196F3;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 /*---------section3-----*/
@@ -216,7 +240,16 @@ color: #2196F3;
   color: #757575;
 }
 
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 /*---------footer-----*/
+.logotype {
+  margin-bottom: 20px;
+}
 
 .footer {
   background-color: #2f303a;
@@ -224,6 +257,10 @@ color: #2196F3;
 
 .footer-logo {
   color: #ffffff;
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-link {
@@ -271,6 +308,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 30px;
 }
 .portfolio-btn {
   background-color: #F5F4FA;
@@ -279,6 +317,12 @@ color: #212121;
 .portfolio-btn:hover {
     color: #ffffff;
     background-color: #2196F3;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .menu-title {
@@ -295,6 +339,13 @@ font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
 color: #757575;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .menu-link {
@@ -345,7 +396,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 img {

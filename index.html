@@ -22,8 +22,8 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container header-container">
+        <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
             >Web<span class="logo">Studio</span></a
           >
@@ -60,11 +60,13 @@
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           </div>
           <div class="hero-button">
-            <button type="button" class="hero-btn">Замовити послугу</button>
+            <button type="button" class="hero-btn">
+              <div class="text-btn">Замовити послугу</div>
+            </button>
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about section">
         <div class="container">
           <ul class="about-list list">
             <li class="about-item-1">
@@ -140,50 +142,63 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-content">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-link">
               <img
+                class="team-img"
                 src="./images/team-hw1-2.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-content">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-link">
               <img
+                class="team-img"
                 src="./images/team-hw1-3.jpg"
                 alt="Микола Тарасов"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-content">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-link">
               <img
+                class="team-img"
                 src="./images/team-hw1-4.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-content">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <footer class="footer">
         <div class="container">
-          <a class="footer-link link" href="./index.html"
-            >Web<span class="footer-logo">Studio</span></a
-          >
+          <div class="logotype">
+            <a class="footer-link link" href="./index.html"
+              >Web<span class="footer-logo">Studio</span></a
+            >
+          </div>
           <address class="footer-address">
             <ul class="footer-list list">
-              <li>
+              <li class="footer-item">
                 <a
                   class="footer-map link"
                   href="https://goo.gl/maps/CyibSN7R3VRPbVuL6"
@@ -192,7 +207,7 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li>
+              <li class="footer-item">
                 <a class="footer-mail link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
