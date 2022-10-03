@@ -7,6 +7,9 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-work {
+  padding-bottom: 94px;
+}
 
 .list {
   list-style: none;
@@ -20,6 +23,7 @@ body {
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -105,6 +109,8 @@ color: #2196F3;
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -115,16 +121,13 @@ color: #2196F3;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.hero-content {
-  padding-right: 252px;
-  padding-left: 252px;
+  max-width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
 .hero-btn {
-  font-family: inherit,sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -135,6 +138,10 @@ color: #2196F3;
   color: #ffffff;
   min-width: 216px;
   height: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button {
@@ -177,7 +184,20 @@ color: #2196F3;
 
 .about-list {
   display: flex;
-  justify-content: center;
+  gap: 30px;
+}
+
+.about-item-1 {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.about-item-2 {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.about-item-3 {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.about-item-4 {
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 /*---------section2-----*/
@@ -238,21 +258,22 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 /*---------footer-----*/
-.logotype {
-  margin-bottom: 20px;
-}
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -265,12 +286,13 @@ color: #2196F3;
 
 .footer-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .footer-map {
@@ -312,6 +334,8 @@ margin-bottom: 30px;
 }
 .portfolio-btn {
   background-color: #F5F4FA;
+  border: none;
+  padding: 6px 22px;
 }
 
 .portfolio-btn:hover {
@@ -322,7 +346,7 @@ margin-bottom: 30px;
 .portfolio-list {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
 }
 
 .menu-title {
@@ -392,7 +416,7 @@ button {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
